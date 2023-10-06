@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.navmenu
+{
+	font-size: 20px;
+	color: rebeccapurple;
+	font-weight: bolder;
+}
+.logo
+{
+	font-size: 25px;
+	font-family: Elephant;
+	font-variant: small-caps;
+	color: brown;
+}
+.sections-menu
+{
+position: relative;
+top: 100px;
+}
+.sections-menu div
+{
+height: 400px;
+width: 100%;
+border: 5px solid red;
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	width: 100%;
+}
+html
+{
+	scroll-behavior: smooth;
+}
